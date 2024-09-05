@@ -42,15 +42,20 @@ The dataset used in this project is the Wine Quality Dataset from the UCI Machin
 - Visualize the results to understand key factors influencing wine quality.
 
 ## Key Findings
-- Citric Acid shows the strongest positive correlation with wine quality: Citric acid, commonly associated with freshness and balance in wine, showed the highest positive correlation with quality ratings. Higher levels are often found in wines rated "good" to "excellent."
+- Citric Acid shows the strongest positive correlation with wine quality:
+Citric acid, commonly associated with freshness and balance in wine, showed the highest positive correlation with quality ratings. Higher levels are often found in wines rated "good" to "excellent."
 
-- The Random Forest model achieved the highest prediction accuracy of 87%: Among the machine learning models tested, the Random Forest classifier outperformed others, achieving an accuracy of 87% in predicting wine quality based on physicochemical properties.
+- The Random Forest model achieved the highest prediction accuracy of 87%:
+Among the machine learning models tested, the Random Forest classifier outperformed others, achieving an accuracy of 87% in predicting wine quality based on physicochemical properties.
 
-- Alcohol content and volatile acidity are among the top predictors of wine quality: Alcohol content positively correlates with wine quality, while higher volatile acidity typically indicates lower quality. Both are critical factors in determining the sensory appeal of wine. Higher alcohol content generally indicates better quality.
+- Alcohol content and volatile acidity are among the top predictors of wine quality:
+Alcohol content positively correlates with wine quality, while higher volatile acidity typically indicates lower quality. Both are critical factors in determining the sensory appeal of wine. Higher alcohol content generally indicates better quality.
 
-- Residual sugar has a minimal impact on quality ratings: Residual sugar levels showed little to no correlation with the overall quality ratings, suggesting that other factors like acidity and alcohol play a more significant role in determining wine quality. Sugar content does not have a significant impact on the quality rating.
+- Residual sugar has a minimal impact on quality ratings:
+Residual sugar levels showed little to no correlation with the overall quality ratings, suggesting that other factors like acidity and alcohol play a more significant role in determining wine quality. Sugar content does not have a significant impact on the quality rating.
 
-- Sulphates contribute moderately to quality but are less influential than alcohol or acidity: Sulphates, which help stabilize wine and contribute to aroma, have a moderate positive correlation with quality, though their impact is less significant compared to alcohol content and acidity.
+- Sulphates contribute moderately to quality but are less influential than alcohol or acidity:
+Sulphates, which help stabilize wine and contribute to aroma, have a moderate positive correlation with quality, though their impact is less significant compared to alcohol content and acidity.
 
 ## Methodology
 1. Data Preprocessing: Handling missing values, outlier detection, and normalization
